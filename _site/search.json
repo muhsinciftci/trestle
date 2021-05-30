@@ -5,28 +5,28 @@
       "title": "Hi!",
       "author": [],
       "contents": "\n\nd-title, d-byline {\n  display: none\n}\n\n\n.columnname {\n  font-size: 1.4rem; \n  font-weight: 600\n}\n.grad-item {\n  list-style: none; \n  background-image: url(images/cap.png); \n  background-repeat: no-repeat;  \n  background-size: 1.2rem; \n  padding-left: 2rem;\n}\n.grad-location {\n  font-size: 1.1rem;\n  color: #0D7680;\n}\n\n\n\n\n\nMuhsin Ciftci\n\n    CV\n\nI am a Ph.D. Candidate in Economics at Goethe University Frankfurt School of Economics. My research interests are macroeconomics and applied econometrics. I am also interested in the application of machine learning to economics and how alternative ways can change the ways we understand the data.\nBefore joining Goethe University Frankfurt, I received a Master of Science in Economics from Middle East Technical University and at the same time, I worked as a researcher at the Central Bank of Turkey. I received a Bachelor of Arts in Economics from Bogazici University.\n\n\n Interests \nMacroeconomics\nApplied Econometrics\nMachine Learning\n\n\n Education \n\nPhD in Economics, 2019 - Present \nGoethe University Frankfurt, Germany\n\n\n\nMSc in Economics, 2017 - 2019 \nMiddle East Technical University, Turkey\n\n\n\nBA in Economics, 2010 - 2015 \nBogazici University, Turkey\n\n\n\n\n\n\n\n\n\n© Muhsin Ciftci, 2021. Created with  Distill Package.\n\n\n\n\n",
-      "last_modified": "2021-05-30T22:18:29+02:00"
+      "last_modified": "2021-05-30T22:27:25+02:00"
     },
     {
       "path": "Other.html",
       "title": "Other",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2021-05-30T22:09:31+02:00"
+      "last_modified": "2021-05-30T22:27:04+02:00"
     },
     {
       "path": "Posts.html",
       "title": "Blog",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2021-05-30T22:09:32+02:00"
+      "last_modified": "2021-05-30T22:27:06+02:00"
     },
     {
       "path": "Research.html",
       "title": "Research",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2021-05-30T22:09:33+02:00"
+      "last_modified": "2021-05-30T22:27:06+02:00"
     }
   ],
   "collections": ["posts/posts.json", "other/other.json", "research/research.json"]
