@@ -70,7 +70,7 @@ Before joining Goethe University Frankfurt, I received a Master of Science in Ec
 
 <ul>
  
-<li class = "grad-item">   PhD in Economics, 2019 - Present <br> <p class = "grad-location"> Goethe University Frankfurt </p> </li>
+<li class = "grad-item">   PhD in Economics, 2019 - Present <br> <p class = "grad-location"> Goethe University Frankfurt, Germany </p> </li>
 <br>
 <li class = "grad-item">   MSc in Economics, 2017 - 2019 <br>
 <p class = "grad-location"> Middle East Technical University, Turkey </p> </li>
