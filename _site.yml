@@ -1,0 +1,33 @@
+name: "."
+title: "MC"
+base_url: https://muhsinciftci.netlify.app/
+description: |
+  Muhsin Ciftci
+output_dir: "_site"
+navbar:
+  search: false
+  right:
+    - text: Home
+      icon: fa-home
+      href: index.html
+    - text: "Research"
+      href: research.html
+    - text: "Posts"
+      href: posts.html
+    - text: "Other"
+      href: other.html
+output:
+  distill::distill_article:
+    theme: theme.css
+preview: images/ciftci.png
+collections:
+  posts:
+    categories: true
+    categories_metadata: true
+    authors_metadata: true
+    share: [twitter, linkedin]
+  teaching:
+    categories: true
+    categories_metadata: true
+    authors_metadata: true
+    share: [twitter, linkedin]

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>MC</title>
+    <link>https://muhsinciftci.netlify.app/</link>
+    <atom:link href="https://muhsinciftci.netlify.app/Other.xml" rel="self" type="application/rss+xml"/>
+    <description>Muhsin Ciftci
+</description>
+    <generator>Distill</generator>
+    <lastBuildDate>Sun, 30 May 2021 00:00:00 +0000</lastBuildDate>
+  </channel>
+</rss>
