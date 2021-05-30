@@ -1,12 +1,9 @@
 ---
-layout: archive
-date: "2020-01-05"
+date: "2021-05-25"
 title: "Resume"
-comment: false
-permalink: /cv/
-author_profile: true
-redirect_from:
-  - /resume
+output:
+  distill::distill_article:
+    theme: theme.css
 ---
 
 ## Education
@@ -45,9 +42,11 @@ redirect_from:
 ## Interests
 * Professional Photography, Classical Music
 
+---
+
+```{r include=FALSE}
+library(kableExtra)
+```
 
 
-{{% alert note %}}
-Click [HERE](/cv/cv.pdf) to download `PDF` version of my resume.
-{{% /alert %}}
-
+`r text_spec("Click Here for [PDF Version](cv.pdf)", background = "#0D7680", color = "yellow", bold = T)`
