@@ -96,4 +96,19 @@ library(fontawesome)
 
 
 
+```{r, include=FALSE, results='asis'}
+library(metathis)
+meta() %>%
+  meta_social(
+    title = "MC",
+    description = "Personal academic website of Muhsin Ciftci",
+    url = "https://muhsinciftci.netlify.app/",
+    image = "https://github.com/muhsinciftci/mydistill-website/blob/main/images/ciftci.png",
+    image_alt = "",
+    og_type = "website",
+    og_author = "Muhsin Ciftci",
+    twitter_card_type = "summary",
+    twitter_creator = "@ciftciphd"
+  )
+```
 
