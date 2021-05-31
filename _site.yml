@@ -24,7 +24,7 @@ collections:
   posts:
     disqus:
       shortname: https-muhsinciftci-github-io
-      hidden: true
+      hidden: false
     categories: true
     categories_metadata: true
     authors_metadata: true
