@@ -32,7 +32,6 @@ library(kableExtra)
 ```
 
 
-`r text_spec("Click Here for [PDF Document](http://www.aessweb.com/pdf-files/AJEM-2018-6%281%29-8-20.pdf)", background = "#0D7680", color = "yellow", bold = T)`
-
+Click `r text_spec("[HERE](http://www.aessweb.com/pdf-files/AJEM-2018-6%281%29-8-20.pdf)", background = "#0D7680", color = "yellow", bold = T)` for PDF Document
 
 

@@ -24,9 +24,13 @@ output:
 * Secondary
   * Machine Learning, Data Science
 
-## Publications
+## Articles
 
 * Nonlinear Dynamics in Exchange Rate Pass Through and Inflation Persistence: The Case of Turkish Economy
+
+## Working Papers
+
+* Uneven Consequences of Coronavirus Pandemic: Evidence from a Real Time Survey
 
 ## Grants \& Awards
 * Graduate School Fellowship/Scholarship
@@ -49,4 +53,4 @@ library(kableExtra)
 ```
 
 
-`r text_spec("Click Here for [PDF Version](cv.pdf)", background = "#0D7680", color = "yellow", bold = T)`
+Click `r text_spec("[HERE](cv.pdf)", background = "#0D7680", color = "yellow", bold = T)` PDF Version
