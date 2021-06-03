@@ -54,3 +54,4 @@ library(kableExtra)
 
 
 Click `r text_spec("[HERE](cv.pdf)", background = "#0D7680", color = "yellow", bold = T)` PDF Version
+
