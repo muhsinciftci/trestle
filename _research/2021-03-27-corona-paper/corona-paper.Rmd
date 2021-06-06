@@ -9,6 +9,7 @@ categories:
   - Coronavirus
   - Bayesian Modeling
 date: 03-27-2021
+preview: summary-chart-p1.png
 output:
   distill::distill_article:
     self_contained: false
@@ -24,8 +25,4 @@ In this study, we investigate the impact of coronavirus pandemic on increased ho
 library(kableExtra)
 ```
 
-
 Click `r text_spec("[Here](https://mpra.ub.uni-muenchen.de/107842/1/MPRA_paper_107842.pdf)", background = "#0D7680", color = "yellow", bold = T)` for PDF Document
-
-
-

@@ -8,6 +8,7 @@ author:
 categories:
   - Software
 date: 10-1-2018 #Month-day-year
+preview: jupyter.png
 output:
   distill::distill_article:
     self_contained: false

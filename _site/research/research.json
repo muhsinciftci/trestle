@@ -15,9 +15,11 @@
       "Bayesian Modeling"
     ],
     "contents": "\nAbstract\nIn this study, we investigate the impact of coronavirus pandemic on increased home office working, provision of payments to dependent employees on leave, and closed workplaces (voluntary or involuntary) of self-employed people using the online GESIS Panel survey on the Coronavirus SARS-COV-2 for Germany. To this end, we use the Bayesian estimation to measure the effects of a pandemic on key outcome variables, taking into account different levels of education, gender, household size, age, and the number of children below certain age of workers. Empirical results show that higher education level, gender, a larger household size, having children below the age of 12 significantly increase home office work. Men are more likely to work from home than women. On the other hand, women are more likely to get paid while on leave, and this could reduce the inequality documented by the existing research. A more striking result is that more educated workers, on average, are less likely to get paid while on leave. As for closed businesses, household size positively affects the number of voluntarily closed ones, and women are 20% more likely to experience having their business shut down by the authorities. A final remark is that more educated people are less likely to have their workplace closed by the authorities.\nClick Here for PDF Document\n\n\n\n",
-    "preview": {},
-    "last_modified": "2021-06-01T19:46:46+02:00",
-    "input_file": {}
+    "preview": "research/2021-03-27-corona-paper/summary-chart-p1.png",
+    "last_modified": "2021-06-06T13:41:04+02:00",
+    "input_file": "corona-paper.knit.md",
+    "preview_width": 2812,
+    "preview_height": 2016
   },
   {
     "path": "research/2017-12-04-nonlinear-dynamics/",
@@ -25,7 +27,7 @@
     "description": "Journal Article",
     "author": [
       {
-        "name": "Muhsin Ciftci",
+        "name": "Muhsin Ciftci & M. Hasan Yilmaz",
         "url": {}
       }
     ],
@@ -36,7 +38,7 @@
     ],
     "contents": "\nAbstract\nAs a small open economy, inflation is still largely driven by exchange rate developments in Turkey. Despite the fact that exchange rate pass-through (ERPT) to inflation has declined after the adoption of explicit inflation targeting in 2003, its contribution to the consumer prices and producer prices inflation is still prominent. Furthermore, recent studies show that inflation persistence appears to be another issue preventing from achieving price stability. This paper aims to explore the non-linear dynamics of ERPT and inflation persistence in the case of Turkey by employing Smooth Transition Regression (STR) models. The main motivation of this study is to identify different regimes charactarized by the magnitude of exchange rate movements in which ERPT and persistence in inflation indicators differ. Estimation results for the period 2003-2017 shows that inflation persistence and ERPT for Consumer Price Index (CPI) is high in regime with a sizeable import price shock. Additionally, STR estimation results indicate that ERPT and import price pass-through to Producer Price Index (PPI) is more influential in high depreciation regime.\nClick HERE for PDF Document\n\n\n\n",
     "preview": {},
-    "last_modified": "2021-06-01T21:02:51+02:00",
-    "input_file": {}
+    "last_modified": "2021-06-06T13:29:42+02:00",
+    "input_file": "nonlinear-dynamics.knit.md"
   }
 ]

@@ -3,7 +3,7 @@ title: "Nonlinear Dynamics in Exchange Rate Pass Through and Inflation Persisten
 description: | 
   Journal Article
 author:
-  - name: Muhsin Ciftci
+  - name: Muhsin Ciftci & M. Hasan Yilmaz
     affiliation: Middle East Technical University
 categories:
   - Exchange Rate Pass Through
@@ -29,6 +29,7 @@ knitr::include_graphics("images/Rlogo.png")
 
 ```{r include=FALSE}
 library(kableExtra)
+library(distilltools)
 ```
 
 
