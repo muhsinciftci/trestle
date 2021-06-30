@@ -1869,8 +1869,9 @@ d-appendix {
 </style>
 <style type="text/css">@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&family=IBM+Plex+Mono&family=IBM+Plex+Sans&family=IBM+Plex+Serif:ital,wght@1,600&family=Lato&display=swap');
 
-:root {
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono');
 
+:root {
   --nord0: #2e3440;
   --nord1: #3b4252;
   --nord2: #434c5e;
@@ -1898,7 +1899,7 @@ html {
   /*-- Main font sizes --*/
   --title-size:      50px;
   --body-size:       
-  --code-size:       20px;
+  --code-size:       30px;
   --aside-size:      12px;
   --fig-cap-size:    13px;
   
@@ -1925,6 +1926,7 @@ d-article,d-appendix, body {
   text-align: left;
   font-size: 20px;
 }
+
 
 /*-- ARTICLE METADATA --*/
 d-byline {
@@ -2009,300 +2011,13 @@ a, i, svg {
 
 /* Code */
 d-article div.sourceCode {
-  background-color: var(--nord5);
+  background-color: #DBFF33;
+  font-size: 10rem;
+  line-height: 1.5;
 }
 
 
-/* Code Folding by Thomas Mock https://themockup.blog/about.html */
-details {
-  background-color: hsla(60, 7%, 80%, 0.2);
-  cursor: pointer;
-  color: #2d2d2d;
-  margin-bottom:1vh;
-  padding: 1em;
-  border: none;
-  outline: none;
-}
-
-
-.active, details:hover {
-  transition: max-height 0.2s ease-out;
-}
-
-details {
-  display: flex;
-  justify-content: space-between;
-  align-content: center;
-  border-radius: 4px;
-}
-
-details.active {
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
-}
-
-summary::-webkit-details-marker {
-  display: none
-}
-
-summary::after {
-  float: right;
-  font-family: "Font Awesome 5 Free";
-  content: "\f0fe";
-}
-
-details[open] summary::after {
-  float: right;
-  font-family: "Font Awesome 5 Free";
-  content: "\f146";
-}
-
-details h4 {
-  margin: 0;
-  color: #2d2d2d !important;
-  line-height: inherit;
-}
-
-/* Contact Form */
-#fs-frm input,
-#fs-frm select,
-#fs-frm textarea,
-#fs-frm fieldset,
-#fs-frm optgroup,
-#fs-frm label,
-#fs-frm #card-element:disabled {
-  font-family: inherit;
-  font-size: 100%;
-  color: inherit;
-  border: none;
-  border-radius: 0;
-  display: block;
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-}
-
-#fs-frm label,
-#fs-frm legend,
-#fs-frm ::placeholder {
-  font-size: .825rem;
-  margin-bottom: .5rem;
-  padding-top: .2rem;
-  display: flex;
-  align-items: baseline;
-}
-
-/* border, padding, margin, width */
-#fs-frm input,
-#fs-frm select,
-#fs-frm textarea,
-#fs-frm #card-element {
-  border: 1px solid rgba(0,0,0,0.2);
-  background-color: rgba(255,255,255,0.9);
-  padding: .75em 1rem;
-  margin-bottom: 1.5rem;
-}
-
-#fs-frm input:focus,
-#fs-frm select:focus,
-#fs-frm textarea:focus {
-  background-color: var(--nord1);
-  outline-style: solid;
-  outline-width: thin;
-  outline-color: gray;
-  outline-offset: -1px;
-}
-
-#fs-frm [type="text"],
-#fs-frm [type="email"] {
-  width: 100%;
-}
-#fs-frm [type="button"],
-#fs-frm [type="submit"],
-#fs-frm [type="reset"] {
-  width: auto;
-  cursor: pointer;
-  -webkit-appearance: button;
-  -moz-appearance: button;
-  appearance: button;
-}
-#fs-frm [type="button"]:focus,
-#fs-frm [type="submit"]:focus,
-#fs-frm [type="reset"]:focus {
-  outline: none;
-}
-#fs-frm [type="submit"],
-#fs-frm [type="reset"] {
-  margin-bottom: 0;
-}
-
-/* Scrollbar */
-/* Works on Firefox */
-* {
-  scrollbar-width: thin;
-  scrollbar-color: var(--primary) var(--nord1);
-}
-
-/* Works on Chrome, Edge, and Safari */
-*::-webkit-scrollbar {
-  width: 12px;
-}
-
-*::-webkit-scrollbar-track {
-  background: var(--nord1);
-}
-
-*::-webkit-scrollbar-thumb {
-  background-color: var(--primary);
-  border-radius: 20px;
-  border: 3px solid var(--nord1);
-}
-
-/* Listing Pages */
-.posts-list .post-preview {
-  max-width: 85%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* Darkmode */
-.darkmode {
-  --title-color:     var(--nord5);
-  --header-color:    var(--nord5);
-  --body-color:      var(--nord5);
-  --aside-color:     var(--nord5);
-  --fig-cap-color:   var(--nord5);
-  background-color: var(--nord0);
-  color: var(--nord5);
-}
-
-.darkmode d-article,
-.darkmode d-appendix,
-.darkmode body {
-  background-color: var(--nord0);
-  color: var(--nord5);
-}
-
-.darkmode d-title {
-  color: var(--nord5);
-}
-
-.darkmode d-article blockquote {
-  color: var(--nord5);
-}
-
-.darkmode d-byline {
-  --heading-color:  var(--nord5);
-  --body-color:     var(--nord5);
-}
-
-.darkmode d-appendix {
-  border-color: var(--nord4);
-  --heading-color:   var(--nord5);
-  --text-color:      var(--nord5);
-}
-
-.darkmode d-appendix a {
-  color: var(--nord5);
-}
-
-.darkmode .distill-site-header {
-  --text-color: var(--nord5);
-  --bkgd-color: var(--nord1);
-}
-
-.darkmode .distill-site-footer {
-  --text-color: var(--nord5);
-  --bkgd-color: var(--nord1);
-}
-
-.darkmode d-article div.sourceCode,
-.darkmode code {
-  background-color: var(--nord1);
-}
-
-.darkmode d-article pre {
-  color: var(--nord4);
-}
-
-.darkmode code span {
-  color: var(--nord6);
-}
-
-.darkmode a {
-  border-color: var(--nord5);
-}
-
-.darkmode .posts-list .post-preview {
-  border-color: var(--nord5);
-}
-
-.darkmode a:hover {
-  border-color: var(--primary);
-}
-
-.darkmode .categories li > * {
-  color: var(--nord5);
-}
-
-.darkmode .posts-list .dt-tags .dt-tag,
-.darkmode .dt-tags .dt-tag {
-  color: var(--nord5);
-  border-color: var(--nord5);
-}
-
-.darkmode d-article .sourceCode {
-  background-color: var(--nord1);
-}
-
-.darkmode details {
-  color: var(--nord4);
-}
-
-.darkmode .algolia-autocomplete,
-.darkmode .algolia-autocomplete .aa-input,
-.darkmode .algolia-autocomplete .aa-dropdown-menu,
-.darkmode .algolia-autocomplete div .search-item,
-.darkmode .algolia-autocomplete .aa-hint {
-  background-color: var(--nord1);
-  color: var(--nord5);
-}
-
-.darkmode .social_footer {
-  color: var(--nord5);
-}
-
-.darkmode #fs-frm input:focus,
-.darkmode #fs-frm [type="submit"]:hover,
-.darkmode #fs-frm [type="submit"] input:focus,
-.darkmode #fs-frm select:focus,
-.darkmode #fs-frm textarea:focus {
-  background-color: var(--nord2);
-}
-
-.darkmode #fs-frm input,
-.darkmode #fs-frm select,
-.darkmode #fs-frm textarea,
-.darkmode #fs-frm #card-element {
-  border: 1px solid var(--nord1);
-  background-color: var(--nord1);
-}
-
-
-.darkmode div.datatables,
-.darkmode table.dataTable.stripe tbody tr.odd, .darkmode table.dataTable.display tbody tr.odd,
-.darkmode table.dataTable tbody tr,
-.darkmode input,
-.darkmode .dataTables_wrapper .dataTables_length,
-.darkmode .dataTables_wrapper .dataTables_filter,
-.darkmode .dataTables_wrapper .dataTables_info,
-.darkmode .dataTables_wrapper .dataTables_processing,
-.darkmode .dataTables_wrapper .dataTables_paginate {
-  color: var(--nord4);
-  background-color: var(--nord1);
-}</style>
+</style>
 <style type="text/css">
 /* base style */
 
@@ -2490,9 +2205,7 @@ d-appendix d-footnote-list a.footnote-backlink {
 <a href="../../index.html" class="title">MC</a>
 </div>
 <div class="nav-right">
-<a href="../../index.html" aria-label="Home">
-<i class="fa fa-home" aria-hidden="true"></i>
-</a>
+<a href="../../index.html">Home</a>
 <a href="../../research.html">Research</a>
 <a href="../../posts.html">Posts</a>
 <a href="../../other.html">Other</a>
