@@ -41,7 +41,7 @@ class="profile-circle">
 [`r fontawesome::fa("linkedin")`](https://www.linkedin.com/in/muhsinciftci/)
 [`r fontawesome::fa("twitter")`](https://twitter.com/ciftciphd)
 [`r fontawesome::fa("github")`](https://github.com/muhsinciftci)
-<a href="https://muhsinciftci.netlify.app/files/CV.html"><i class="square"></i>CV</a><br>
+<a href="https://muhsinciftci.netlify.app/files/CV.html"><i class="circle"></i>CV</a><br>
 </div>
 
 I am a Ph.D. Candidate in Economics at Goethe University Frankfurt School of Economics. My research interests are macroeconomics and applied econometrics. I am also interested in the application of machine learning to economics and how alternative ways can change the ways we understand the data.
