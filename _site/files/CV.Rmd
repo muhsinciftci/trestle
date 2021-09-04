@@ -26,11 +26,15 @@ output:
 
 ## Articles
 
-* _Nonlinear Dynamics in Exchange Rate Pass Through and Inflation Persistence: The Case of Turkish Economy_
+* Nonlinear Dynamics in Exchange Rate Pass Through and Inflation Persistence: The Case of Turkish Economy
 
 ## Working Papers
 
-* _Uneven Consequences of Coronavirus Pandemic: Evidence from a Real Time Survey_
+* Uneven Consequences of Coronavirus Pandemic: Evidence from a Real Time Survey
+
+## Forthcoming Papers
+
+* Market Structure and Exchange Rate Pass-Through: Evidence from Manufacturing Sector Data _(Accepted)_
 
 
 ## Grants \& Awards

@@ -91,7 +91,7 @@ library(fontawesome)
 ```
 
 <center>
-<main style="font-size:15px"> &copy; Muhsin Ciftci, `r format(Sys.time(), '%Y')`. Created with `r fa("r-project", fill = "#0D7680")` Distill Package. </main>
+<main style="font-size:15px"> &copy; Muhsin Ciftci, `r format(Sys.time(), '%Y')`. Created with <i class='fab fa-r-project fa-spin fa-1x'></i> Distill Package. </main>
 </center>
 
 
