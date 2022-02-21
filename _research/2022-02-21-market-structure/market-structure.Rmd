@@ -1,0 +1,31 @@
+---
+title: "Market structure and exchange rate pass-through in the Turkish manufacturing industry: Evidence from sectoral data"
+
+description: | 
+  Bulletin of Economic Research
+author:
+  - name: Muhsin Ciftci & S. Hilmi Kal
+    affiliation: Goethe University Frankfurt
+categories:
+  - Exchange Rate Pass Through
+  - Market Structure
+  - Herfindahl Hirschman Index
+date: 02-21-2022
+preview: figure2.png
+output:
+  distill::distill_article:
+    self_contained: false
+    toc: false
+citation: false
+---
+
+# Abstract
+In this paper, we study the impact of market share on exchange rate pass-through to Turkish manufacturing sector prices using four-digit industry level disaggregate data. Our findings provide evidence that exchange rate pass-through in the manufacturing sector has an asymmetric U-shape with respect to market share, implying that highly competitive and concentrated industries pass-through exchange rate movements in both directions (appreciation and depreciation) to local producer prices more than moderately concentrated sectors. However, when directional asymmetries of exchange rate movements are added to the models, results become more revealing, that is, highly monopolized industries pass-through exchange rate depreciation at higher rates than highly competitive industries. We also find that the size of the exchange rate movement has an impact on the asymmetry and the curvature of the U-shaped Exchange Rate Pass-Through (ERPT) curve with respect to the market share.
+
+
+```{r include=FALSE}
+library(kableExtra)
+library(distilltools)
+```
+
+Click `r text_spec("[Here](https://onlinelibrary.wiley.com/doi/full/10.1111/boer.12329)", background = "#0D7680", color = "yellow", bold = T)` for PDF Document

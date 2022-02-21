@@ -1,5 +1,5 @@
 ---
-title: "Welcome!"
+#title: "Welcome!"
 site: distill::distill_website
 ---
 
@@ -44,13 +44,11 @@ class="profile-circle">
 <a href="https://muhsinciftci.netlify.app/files/CV.html"><i class="circle"></i>CV</a><br>
 </div>
 
+
+
 I am a Ph.D. Candidate in Economics at Goethe University Frankfurt School of Economics. My research interests are macroeconomics and applied econometrics. I am also interested in the application of machine learning to economics and how alternative ways can change the ways we understand the data.
   
 Before joining Goethe University Frankfurt, I received a Master of Science in Economics from Middle East Technical University and at the same time, I worked as a researcher at the Central Bank of Turkey. I received a Bachelor of Arts in Economics from Bogazici University.
-
-  
-
-
 
 :::: {style="display: grid; grid-template-columns: 40% 50%; grid-column-gap: 30px; line-height: 1.5rem;"}
 
@@ -86,29 +84,8 @@ Before joining Goethe University Frankfurt, I received a Master of Science in Ec
 
 ---
 
-```{r echo=FALSE}
-library(fontawesome)
-```
-
 <center>
-<main style="font-size:15px"> &copy; Muhsin Ciftci, `r format(Sys.time(), '%Y')`. Created with <i class='fab fa-r-project fa-spin fa-1x'></i> Distill Package. </main>
+<main style="font-size:15px"> &copy; Muhsin Ciftci, `r format(Sys.time(), '%Y')`. Created with Distill Package in R. </main>
 </center>
 
-
-
-```{r, include=FALSE, results='asis'}
-library(metathis)
-meta() %>%
-  meta_social(
-    title = "MC",
-    description = "Personal academic website of Muhsin Ciftci",
-    url = "https://muhsinciftci.netlify.app/",
-    image = "https://github.com/muhsinciftci/mydistill-website/blob/main/images/ciftci.png",
-    image_alt = "",
-    og_type = "website",
-    og_author = "Muhsin Ciftci",
-    twitter_card_type = "summary",
-    twitter_creator = "@ciftciphd"
-  )
-```
 

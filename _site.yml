@@ -6,6 +6,8 @@ description: |
 output_dir: "_site"
 navbar:
   search: false
+  logo: 
+  href: 
   right:
     - text: Home
       #icon: fa-home
@@ -18,6 +20,8 @@ navbar:
       href: other.html
 output:
   distill::distill_article:
+    #code_folding: true
+    highlight: haddock
     theme: theme.css
 preview: images/ciftci.png
 collections:

@@ -7,12 +7,24 @@
     <description>Muhsin Ciftci
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Sat, 27 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 21 Feb 2022 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Market structure and exchange rate pass-through in the Turkish manufacturing industry: Evidence from sectoral data</title>
+      <dc:creator>Muhsin Ciftci &amp; S. Hilmi Kal</dc:creator>
+      <link>https://muhsinciftci.netlify.app/research/2022-02-21-market-structure</link>
+      <description>Bulletin of Economic Research</description>
+      <category>Exchange Rate Pass Through</category>
+      <category>Market Structure</category>
+      <category>Herfindahl Hirschman Index</category>
+      <guid>https://muhsinciftci.netlify.app/research/2022-02-21-market-structure</guid>
+      <pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate>
+      <media:content url="https://muhsinciftci.netlify.app/research/2022-02-21-market-structure/figure2.png" medium="image" type="image/png" width="1800" height="1200"/>
+    </item>
     <item>
       <title>Uneven Consequences of Coronavirus Pandemic: Evidence from a Real Time Survey</title>
       <dc:creator>Muhsin Ciftci</dc:creator>
       <link>https://muhsinciftci.netlify.app/research/2021-03-27-corona-paper</link>
-      <description>Working Paper</description>
+      <description>Munich Personal RePEc Archive</description>
       <category>Coronavirus</category>
       <category>Bayesian Modeling</category>
       <guid>https://muhsinciftci.netlify.app/research/2021-03-27-corona-paper</guid>
@@ -23,7 +35,7 @@
       <title>Nonlinear Dynamics in Exchange Rate Pass Through and Inflation Persistence: The Case of Turkish Economy</title>
       <dc:creator>Muhsin Ciftci &amp; M. Hasan Yilmaz</dc:creator>
       <link>https://muhsinciftci.netlify.app/research/2017-12-04-nonlinear-dynamics</link>
-      <description>Journal Article</description>
+      <description>Asian Journal of Economic Modelling</description>
       <category>Exchange Rate Pass Through</category>
       <category>Smooth Transition</category>
       <guid>https://muhsinciftci.netlify.app/research/2017-12-04-nonlinear-dynamics</guid>

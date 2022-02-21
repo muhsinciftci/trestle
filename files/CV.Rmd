@@ -6,6 +6,10 @@ output:
     theme: theme.css
 ---
 
+```{r include=FALSE}
+library(kableExtra)
+```
+
 ## Education
 * Ph.D. Candidate in Economics, Goethe University Frankfurt, Frankfurt (Germany), _2019 - Present_
 * M.Sc. in Economics, Middle East Technical University, Ankara (Turkey), _2016-2018_
@@ -26,16 +30,13 @@ output:
 
 ## Articles
 
-* Nonlinear Dynamics in Exchange Rate Pass Through and Inflation Persistence: The Case of Turkish Economy
+* Market structure and exchange rate pass-through in the Turkish manufacturing industry: Evidence from sectoral data, `r text_spec("[Link](https://onlinelibrary.wiley.com/doi/full/10.1111/boer.12329)", background = "steelblue", color = "yellow", bold = T)`
+
+* Nonlinear Dynamics in Exchange Rate Pass Through and Inflation Persistence: The Case of Turkish Economy, `r text_spec("[Link](http://archive.aessweb.com/index.php/5009/article/view/297)", background = "steelblue", color = "yellow", bold = T)`
 
 ## Working Papers
 
-* Uneven Consequences of Coronavirus Pandemic: Evidence from a Real Time Survey
-
-## Forthcoming Papers
-
-* Market Structure and Exchange Rate Pass-Through: Evidence from Manufacturing Sector Data _(Accepted)_
-
+* Uneven Consequences of Coronavirus Pandemic: Evidence from a Real Time Survey, `r text_spec("[Link](https://mpra.ub.uni-muenchen.de/107842/)", background = "steelblue", color = "yellow", bold = T)`
 
 ## Grants \& Awards
 * Graduate School Fellowship/Scholarship
@@ -53,9 +54,9 @@ output:
 
 ---
 
-```{r include=FALSE}
-library(kableExtra)
-```
+Click `r text_spec("[HERE](cv.pdf)", background = "steelblue", color = "yellow", bold = T)` PDF Version
 
-Click `r text_spec("[HERE](cv.pdf)", background = "#0D7680", color = "yellow", bold = T)` PDF Version
+
+
+<!-- [`r fontawesome::fa("file-pdf")`](cv.pdf) -->
 
