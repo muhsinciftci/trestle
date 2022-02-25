@@ -1,6 +1,5 @@
 ---
-date: "2021-05-25"
-title: "Resume"
+title: 'Resume'
 output:
   distill::distill_article:
     theme: theme.css
@@ -54,9 +53,16 @@ library(kableExtra)
 
 ---
 
-Click `r text_spec("[HERE](cv.pdf)", background = "steelblue", color = "yellow", bold = T)` PDF Version
+<!-- Click `r text_spec("[HERE](cv.pdf)", background = "steelblue", color = "yellow", bold = T)` PDF Version -->
+
+[`r fontawesome::fa("home")`](https://muhsinciftci.netlify.app)
 
 
 
-<!-- [`r fontawesome::fa("file-pdf")`](cv.pdf) -->
+
+
+
+
+
+
 

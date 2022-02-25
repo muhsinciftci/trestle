@@ -51,7 +51,7 @@ html {
 
 /*-- Main section --*/
 d-article,d-appendix, body {
-  background-color: #FFF9F5;
+  background-color: white; /*#FFF9F5*/
   color: var(--nord0);
   font-family: palatino;
   text-align: left;
@@ -86,59 +86,18 @@ d-appendix {
 
 .distill-site-header {
   --title-size:       22px;
-  --text-color:       rgba(0, 0, 0, 1);
+  --text-color:       #0049e6;
   --text-size:        20px;
-  --hover-color:      yellow;
-  --bkgd-color:       #0D7680;
+  --hover-color:      green;
+  --bkgd-color:       white;
 }
 
 .distill-site-footer {
-  --text-color:       rgba(0, 0, 0, 0.6);
+  --text-color:       #0049e6;
   --text-size:        15px;
-  --hover-color:      yellow;
+  --hover-color:      blue;
   --bkgd-color:       rgba(210, 210, 210, 1);
 }
-
-
-.profile {
-    padding: 30px 10px;
-    position: relative;
-    text-align: center;
-}
-
-.profile .profile-circle{
-  border-radius: 50%;
-  width: 270px;
-  height: 270px;
-  margin: 0 auto;
-  object-fit: cover;
-}
-
-.profile a {
-  text-decoration: none;
-  border-style: none;
-}
-
-.profile a, .footer a {
-  font-size: 2rem;
-}
-
-a, i, svg {
-  transition: all .2s ease-in-out;
-}
-
-.profile a:hover {
-  transform: scale(1.2);
-  color: var(--primary);
-  border-style: none;
-}
-
-.profile svg:hover {
-  transform: scale(1.2);
-  color: var(--primary);
-  border-style: none;
-}
-
 
 /* Code */
 d-article div.sourceCode {
@@ -146,6 +105,5 @@ d-article div.sourceCode {
   font-size: 10rem;
   line-height: 1.5;
 }
-
 
 

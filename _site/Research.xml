@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
   <channel>
-    <title>MC</title>
+    <title/>
     <link>https://muhsinciftci.netlify.app/</link>
     <atom:link href="https://muhsinciftci.netlify.app/Research.xml" rel="self" type="application/rss+xml"/>
     <description>Muhsin Ciftci
@@ -29,7 +29,7 @@
       <category>Bayesian Modeling</category>
       <guid>https://muhsinciftci.netlify.app/research/2021-03-27-corona-paper</guid>
       <pubDate>Sat, 27 Mar 2021 00:00:00 +0000</pubDate>
-      <media:content url="https://muhsinciftci.netlify.app/research/2021-03-27-corona-paper/summary-chart-p1.png" medium="image" type="image/png" width="2812" height="2016"/>
+      <media:content url="https://muhsinciftci.netlify.app/research/2021-03-27-corona-paper/summary-chart-p1.png" medium="image" type="image/png" width="683" height="573"/>
     </item>
     <item>
       <title>Nonlinear Dynamics in Exchange Rate Pass Through and Inflation Persistence: The Case of Turkish Economy</title>
